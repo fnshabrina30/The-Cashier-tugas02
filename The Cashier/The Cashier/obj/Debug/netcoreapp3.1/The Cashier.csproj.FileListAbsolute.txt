@@ -1,0 +1,19 @@
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.exe
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.deps.json
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.runtimeconfig.json
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.runtimeconfig.dev.json
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.dll
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\bin\Debug\netcoreapp3.1\The Cashier.pdb
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier_MarkupCompile.cache
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier_MarkupCompile.lref
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.g.resources
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.dll
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.pdb
+C:\Users\LENOVO\Documents\FIHA\Kuliah\Semester 3\Pemrograman Lanjut\The Cashier\The Cashier\The Cashier\obj\Debug\netcoreapp3.1\The Cashier.genruntimeconfig.cache

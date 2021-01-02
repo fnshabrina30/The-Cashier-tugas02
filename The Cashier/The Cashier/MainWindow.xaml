@@ -1,0 +1,67 @@
+﻿<Window x:Class="The_Cashier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:The_Cashier"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="548" Width="419">
+    <Grid HorizontalAlignment="Left" Width="448" Margin="0,0,0,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="419*"/>
+            <ColumnDefinition Width="28*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Content="The Cashier v0.1" HorizontalAlignment="Left" Height="23" Margin="41,30,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="label1" Content="Item" HorizontalAlignment="Left" Height="29" Margin="41,87,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="label2" Content="Type" HorizontalAlignment="Left" Margin="41,129,0,0" VerticalAlignment="Top" Height="26" Width="35"/>
+        <Label x:Name="label3" Content="Jumlah" HorizontalAlignment="Left" Margin="41,173,0,0" VerticalAlignment="Top" Height="26" Width="47"/>
+        <Label x:Name="label4" Content="Harga (Rp)" HorizontalAlignment="Left" Margin="41,217,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="201,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox x:Name="quantityBox" HorizontalAlignment="Left" Margin="201,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Margin="201,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <ComboBox x:Name="typeBox" HorizontalAlignment="Left" Margin="201,133,0,0" VerticalAlignment="Top" Width="120" Height="22">
+            <ComboBoxItem Content="Barang"/>
+            <ComboBoxItem Content="Jasa" IsSelected="true"/>
+        </ComboBox>
+        <Button x:Name="addButton" Content="Tambahkan" HorizontalAlignment="Left" Margin="249,259,0,0" VerticalAlignment="Top" Height="26" Width="72" Click="AddButton_Click"/>
+        <ListBox x:Name="listBox" Margin="23,320,51,102">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="75" />
+                            <ColumnDefinition Width="75" />
+                            <ColumnDefinition Width="75" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding title}" TextAlignment="Left" />
+                        <TextBlock Grid.Column="1" Text="{Binding quantity}"  TextAlignment="Right"  />
+                        <TextBlock Grid.Column="2" Text="{Binding price}"  TextAlignment="Right" />
+                        <TextBlock Grid.Column="3" Text="{Binding subtotal}" TextAlignment="Right" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox x:Name="listBox1" Margin="23,290,51,235">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Item" TextAlignment="Center"/>
+                <TextBlock Grid.Column="1" Text="quantity" TextAlignment="Center"/>
+                <TextBlock Grid.Column="2" Text="price" TextAlignment="Center"/>
+                <TextBlock Grid.Column="3" Text="subtotal" TextAlignment="Center"/>
+            </Grid>
+        </ListBox>
+        <Label x:Name="label5" Content="Total" HorizontalAlignment="Left" Margin="40,463,0,0" VerticalAlignment="Top" Height="26" Width="34"/>
+        <Label x:Name="totalLabel" Content="Rp. 2.500" HorizontalAlignment="Left" Margin="83,463,0,0" VerticalAlignment="Top" Height="26" Width="59"/>
+
+    </Grid>
+</Window>
